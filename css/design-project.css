@@ -1,0 +1,48 @@
+body{
+
+}
+
+.col-sm-12{
+    background-color: lightgrey;
+    border: lightgrey;
+    padding: 15px;
+
+}
+
+.navbar{
+    padding: 10px;
+}
+
+.headers{
+    text-align: center;
+    padding: 80px;
+    background-color: lightgrey;
+}
+
+.buttons{
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    line-height: 180px;
+    border-radius: 100%;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    background: #e6563b
+}
+
+badge1{
+}
+
+
+.badge2{
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    line-height: 180px;
+    border-radius: 100%;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    background: #eb9d3a
+}
