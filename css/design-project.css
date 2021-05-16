@@ -1,7 +1,9 @@
 body{
 
 }
+img{
 
+}
 .col-sm-12{
     background-color: lightgrey;
     border: lightgrey;
@@ -11,6 +13,7 @@ body{
 
 .navbar{
     padding: 10px;
+    text-align: center;
 }
 
 .headers{
@@ -19,30 +22,37 @@ body{
     background-color: lightgrey;
 }
 
-.buttons{
-    justify-content: center;
+.circle {
     width: 200px;
     height: 200px;
-    line-height: 180px;
-    border-radius: 100%;
-    font-size: 50px;
-    color: white;
+    line-height: 170px;
+    border: white solid 15px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
     text-align: center;
-    background: #e6563b
+    background: #000
 }
 
-badge1{
+.circles{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
 }
 
-
-.badge2{
-    justify-content: center;
-    width: 200px;
-    height: 200px;
-    line-height: 180px;
-    border-radius: 100%;
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    background: #eb9d3a
+#red{
+    background-color: #e6563b;
 }
+
+#orange{
+    background-color:#DEA03D
+}
+
+#green{
+    background-color:#7CB06C
+}
+
+#blue{
+    background-color:#00ABA9
+}
+@media screen and (min-width:768px){}
