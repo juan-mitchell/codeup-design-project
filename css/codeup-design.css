@@ -1,0 +1,46 @@
+.logo   {
+
+}
+
+body {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.row {
+    justify-content: center;
+}
+
+.head {
+    /*font-size: 150%;*/
+}
+
+.parks {
+    margin-top: 1.5em;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    line-height: 170px;
+    border: white solid 15px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    background: #000
+}
+
+.circles {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+}
