@@ -63,7 +63,9 @@ li {
 }
 
 #apple  {
-    margin: 1.5em;
+    /*margin: 1.5em;*/
+    width: 100%;
+    object-fit: cover;
     border: 1em solid lightgray;
 }
 
@@ -73,8 +75,9 @@ li {
     line-height: 50px;
     border-radius: 50%;
     font-size: 30px;
-    color: #fff;
     text-align: center;
+    margin: 0 8px;
+   color: black;
 }
 
 .circles-icon {
