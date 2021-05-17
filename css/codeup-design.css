@@ -4,6 +4,7 @@
 
 body {
     text-align: center;
+    background-color: #ebebeb;
 }
 
 li {
@@ -41,6 +42,43 @@ li {
 
 .circles {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.red {
+    background-color: #E6563B;
+}
+
+.yellow {
+    background-color: #EB9D3A;
+}
+
+.green {
+    background-color: #7CB06C;
+}
+
+.blue {
+    background-color: #00ABA9;
+}
+
+#apple  {
+    margin: 1.5em;
+    border: 1em solid lightgray;
+}
+
+.circle-icons {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.circles-icon {
+    display: flex;
+    justify-content: flex-end;
     flex-flow: row wrap;
 }
