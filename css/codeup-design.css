@@ -1,0 +1,84 @@
+.logo   {
+
+}
+
+body {
+    text-align: center;
+    background-color: #ebebeb;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.row {
+    justify-content: center;
+}
+
+.head {
+    /*font-size: 150%;*/
+}
+
+.parks {
+    margin-top: 1.5em;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    line-height: 170px;
+    border: white solid 15px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    background: #000
+}
+
+.circles {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.red {
+    background-color: #E6563B;
+}
+
+.yellow {
+    background-color: #EB9D3A;
+}
+
+.green {
+    background-color: #7CB06C;
+}
+
+.blue {
+    background-color: #00ABA9;
+}
+
+#apple  {
+    margin: 1.5em;
+    border: 1em solid lightgray;
+}
+
+.circle-icons {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.circles-icon {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+}
