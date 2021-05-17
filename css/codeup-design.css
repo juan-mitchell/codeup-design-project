@@ -82,3 +82,8 @@ li {
     justify-content: flex-end;
     flex-flow: row wrap;
 }
+
+#macbook {
+    margin: 1.5em;
+    border: 1em solid lightgray;
+}
